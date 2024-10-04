@@ -1,5 +1,10 @@
+:root {
+    --color: steelblue;
+    --height: auto;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--color);
     padding: 10px;
 }
 
@@ -10,12 +15,12 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--color);
 }
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -42,7 +47,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer {
