@@ -56,7 +56,7 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 770px;
+    bottom: auto;
     left: 90px;
     color: white;
 }
