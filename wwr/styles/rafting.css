@@ -19,17 +19,8 @@ h1 {
     font-family: "Inknut Antiqua", system-ui;
     font-weight: bolder;
     font-size: x-large;
-    position: absolute;
 }
 
-article {
-    position: absolute;
-}
-
-article img {
-    float: right;
-    width: 100px;
-}
 h2 {
     padding: 5px;
     border: 2px solid black;
@@ -66,14 +57,4 @@ h2 {
 /*Class Selectors*/
 .sociallinks {
     text-align: justify;
-}
-
-.hero {
-    position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
