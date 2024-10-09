@@ -1,87 +1,89 @@
 * {
-    margin: 1px;
+    margin: 5px;
     padding: 2px;
 }
-/* root element*/
+/*Root Element for Color Palete*/
 :root {
     --primary-color: #5bece7;
-    --secondary-color: #20e9a9c7;
+    --secondary-color: #20e9a9;
     --accent1-color: #B4F500;
-    --aacent2-color: #47A3FF;
+    --aacent2-color: #47a3ffe1;
 }
-
+/*Headings*/
 h1 {
     padding: 2px;
     background-color: var(--primary-color);
-    opacity: 85%;
-    color: rgba(0, 0, 0, 0.881);
+    opacity: 80%;
+    color: black;
     font-family: "Inknut Antiqua", system-ui;
     font-weight: bolder;
     font-size: x-large;
-    position: absolute;
-    top: 20%;
-    left: 50%;
     text-align: center;
-    transform: translate(-50%, -50%);
-    
 }
 
 h2 {
     padding: 5px;
-    border: 2px solid black;
-    text-align: center;
-    background-color: var(--primary-color);
-    color: rgba(0, 0, 0, 0.881);
+    border-color: black;
+    background-color: var(--secondary-color);
+    color: black;
     font-family: "Inknut Antiqua", system-ui;
     font-weight: bolder;
     font-size: x-large;
 }
 
-#main-paragraph {
-    padding: 1px;
+/* paragraphs divided in classes*/
+.main-paragraph {
+    padding: 2px;
     margin: auto;
     border: 2px solid black;
-    background-color: var(--secondary-color);
+    background-color: var(--aacent2-color);
     color: white;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
     font-size: large;
 }
 
-#second-paragraph {
-    padding: 1px;
+.second-paragraph {
+    padding: 2px;
     margin: auto;
     border: 2px solid black;
-    background-color: var(--secondary-color);
-    color: black;
+    background-color: var(--aacent2-color);
+    color: white;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
     font-size: large;
 }
 
-/*Class Selectors*/
+/* Social Media logos*/
 .sociallinks {
     text-align: justify;
+    text-decoration: none;
 }
 
+/* Hero Container*/
 .hero {
     position: relative;
-    text-align: center;
-  }
+}
 
-hero img {
+.hero-img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
-  article {
+h1 {
     position: absolute;
-    top: 75%;
+    top: 10%;
+    width: 100%;
+}
+
+article {
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  article img {
+article img {
     float: right;
-  }
+}
