@@ -54,10 +54,13 @@ h2 {
     font-size: large;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Social Media logos*/
 .sociallinks {
     text-align: justify;
-    text-decoration: none;
 }
 
 /* Hero Container*/
