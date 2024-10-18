@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>WDD 130 | HTML Form - User Poll</header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                <!--form elements will go here-->
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fname" id="fullname">
+                <label for="useremail">Email Address</label>
+                <input type="email" name="useremail" id="useremail">
+                <!--Another way to do it//called implicit label metod -->
+                <!--<legend>Contact information</legend>
+                <label>Full Name: <input type="text" name="fulllname"></label>
+                <label>Email Address: <input type="email" name="useremail"></label>-->
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <!--form elements will go here-->
+                <label for="browser">What is your Favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="Chrome">Google Chrome</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Firefox">FirFoz</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Brave">Brave</option>
+                    <option value="other">Toher</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have lived</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Mexico City Mexico, Vancouver Canada, Millan Itally"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+</body>
+</html>
