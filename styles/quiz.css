@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: black;
+    background-color: lightblue;
+}
+
+header {
+    width: 650px;
+    margin: 3rem;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    margin: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 3rem;
+    display: grid;
+    border: 3.5px solid rgb(0, 0, 0);
+    border-radius: .5rem;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label, input, button, select, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: small;
+}
+
+label {
+    text-align: justify;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1em;
+}
+
