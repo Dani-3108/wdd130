@@ -120,6 +120,7 @@ article {
 
 article img {
     float: right;
+    border-radius: .5rem;
 }
 
 /*History Container*/
@@ -141,6 +142,7 @@ article img {
 .history-img { 
     width: 520px; 
     height: auto;
+    border-radius: .5rem;
 }
 
 /* Layout*/
@@ -174,4 +176,8 @@ footer {
 
 .adventure-layout {
     display: flex;
+}
+
+img {
+    border-radius: .5rem;
 }
