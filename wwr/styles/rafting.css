@@ -55,6 +55,16 @@ h2 {
     font-size: large;
 }
 
+.third-paragraph {
+     padding: 2px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: #47A3FF;
+    color: black;
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: bold;
+    font-size: large;
+}
 /*social links decorations*/
 a {
     text-decoration: none;
@@ -113,18 +123,25 @@ article img {
 }
 
 /*History Container*/
-.history {
-    position: relative;
+
+.second-paragraph {
+    float: left;
+    width: 24%; 
+    height: 350px;
 }
 
-.history-header {
-    text-align: center;
-}
 
-.history-img {
+.third-paragraph {
     float: right;
+    width: 30%; 
+    height: 350px;
 }
 
+
+.history-img { 
+    width: 520px; 
+    height: auto;
+}
 
 /* Layout*/
 header {
