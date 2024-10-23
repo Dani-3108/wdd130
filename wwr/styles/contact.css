@@ -1,13 +1,14 @@
+/*Universal values*/
 * {
     margin: 5px;
     padding: 2px;
 }
-
+/*---------------------*/
 /*anchor decorations*/
 a {
     text-decoration: none;
 }
-
+/*---------------------*/
 /* Social Media logos*/
 .sociallinks {
     text-align: justify;
@@ -30,12 +31,12 @@ header nav {
     width: 150px;
 	height: auto;
 }
-
+/*---------------------*/
 /*First Section that would be Reach our Team Section*/
 .team {
     width: 76rem;
     height:15rem;
-    background-color: aqua;
+    background-color: lightblue;
     text-align: center;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
@@ -50,11 +51,11 @@ header nav {
     font-size: xxx-large;
     text-align: center;
 }
-
+/*---------------------*/
 /*Second Section, that would be the Company information and the Map iframe*/
 .company-information {
     position: relative;
-    background-color: aquamarine;
+    background-color: lightcyan;
     width: 76rem;
     height: 12rem;
     font-family: "Cormorant Garamond", system-ui;
@@ -66,12 +67,13 @@ header nav {
     left: 30rem;
     bottom: 11rem;
 }
+/*---------------------*/
 /*third section, that would be our Staff*/
 .staff {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
-    width: 75.5rem;
+    background-color: lightcyan;
+    width: 74.5rem;
     
 }
 
@@ -95,9 +97,83 @@ figcaption {
     font-weight: bolder;
     font-size: 17px;
 }
+/*---------------------*/
+/*Form Style*/
+.form {
+    box-sizing: border-box;
+    background-color: lightcyan;
+    width: 75rem;
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: bold;
+    font-size: large;
+}
+
+.form-header {
+    text-align: center;
+    font-family: "Inknut Antiqua", system-ui;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+legend {
+    font-family: "Inknut Antiqua", system-ui;
+    color: navy;
+}
+
+.main-field {
+    display: grid;
+    border-radius: .5rem;
+    border-color: rgb(0, 193, 252);
+}
+
+fieldset {
+    border-radius: .5rem;
+    border-color: rgb(0, 193, 252);
+}
+
+label {
+    text-align: justify;
+    padding: 10px;
+}
+
+button {
+    border-radius: .5rem;
+    border: none;
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(0, 157, 255);
+    padding: .75rem;
+    font-size: 1em;
+}
+
+button :hover {
+    background-color: darkblue;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.form-item-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------*/
 /*Footer*/
 footer {
     display: grid;
     grid-template-columns: 3.5fr 1fr;
     justify-content: center;
 }
+/*Wireframe*/
+.wireframe {
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: bold;
+    font-size: x-large;
+}
+/*---------------------*/

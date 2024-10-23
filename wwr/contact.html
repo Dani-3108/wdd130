@@ -53,16 +53,39 @@
                 </figure>
             </div>
         </section>
-        <section>
-            <header>
+        <section class="form">
+            <header class="form-header">
                 <h1>Send Us a Message</h1>
             </header>
             <form>
-                <fieldset>
+                <fieldset class="main-field">
+                    <legend>User information</legend>
+                    <div class="form-item">
                     <!--form elements-->
-                    <label for="fulllname">Full Name</label>
-                    <input type="text" id="fullname" name="fulllname">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <label for="email">Email Address</label>
+                        <input type="text" name="email" id="email">
+                    </div>
                 </fieldset>
+                <fieldset class="main-field">
+                    <legend>Message Type</legend>
+                    <div class="form-item-2 column1">
+                        <input type="radio" name="message-type" id="general-inquiry">
+                        <label for="general-inquiry">General Inquiry</label>
+                        <input type="radio" name="message-type" id="reservation-question">
+                        <label for="reservation-question">Reservation Question</label>
+                        <input type="radio" name="message-type" id="website-suggestion">
+                        <label for="website-suggestion">Website Sugesstion</label>
+                        <label for="feedback">Message:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Write your Message here"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="suscribe" id="suscribe" value="please-subscribe-me-to-the-monthly-newsletter">
+                    <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
             </form>
         </section>
     </main>
@@ -78,6 +101,9 @@
             <a href="https://www.tripadvisor.com/">
                 <img src="images/tripadvisor.png" alt="Tripadvisor" width="50">
             </a>
+        </nav>
+        <nav class="Wireframe">
+            <a href="https://app.moqups.com/LA25iQ1kn7p5w5MxfedLYTQDxMJZskHm/view/page/ad12de680">Wireframe Link</a>
         </nav>
     </footer>
 </body>
