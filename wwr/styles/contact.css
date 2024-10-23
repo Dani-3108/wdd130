@@ -1,14 +1,13 @@
-/*Universal values*/
 * {
     margin: 5px;
     padding: 2px;
 }
-/*---------------------*/
+
 /*anchor decorations*/
 a {
     text-decoration: none;
 }
-/*---------------------*/
+
 /* Social Media logos*/
 .sociallinks {
     text-align: justify;
@@ -31,12 +30,12 @@ header nav {
     width: 150px;
 	height: auto;
 }
-/*---------------------*/
+
 /*First Section that would be Reach our Team Section*/
 .team {
     width: 76rem;
     height:15rem;
-    background-color: lightblue;
+    background-color: aqua;
     text-align: center;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
@@ -51,11 +50,11 @@ header nav {
     font-size: xxx-large;
     text-align: center;
 }
-/*---------------------*/
+
 /*Second Section, that would be the Company information and the Map iframe*/
 .company-information {
     position: relative;
-    background-color: lightcyan;
+    background-color: aquamarine;
     width: 76rem;
     height: 12rem;
     font-family: "Cormorant Garamond", system-ui;
@@ -67,13 +66,12 @@ header nav {
     left: 30rem;
     bottom: 11rem;
 }
-/*---------------------*/
 /*third section, that would be our Staff*/
 .staff {
     display: flex;
     justify-content: space-between;
-    background-color: lightcyan;
-    width: 74.5rem;
+    background-color: aquamarine;
+    width: 75.5rem;
     
 }
 
@@ -97,7 +95,14 @@ figcaption {
     font-weight: bolder;
     font-size: 17px;
 }
-/*---------------------*/
+/*Footer*/
+footer {
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    justify-content: center;
+}
+
+
 /*Form Style*/
 .form {
     box-sizing: border-box;
@@ -163,17 +168,3 @@ button :hover {
     flex-direction: column;
 }
 
-/*---------------------*/
-/*Footer*/
-footer {
-    display: grid;
-    grid-template-columns: 3.5fr 1fr;
-    justify-content: center;
-}
-/*Wireframe*/
-.wireframe {
-    font-family: "Cormorant Garamond", system-ui;
-    font-weight: bold;
-    font-size: x-large;
-}
-/*---------------------*/
