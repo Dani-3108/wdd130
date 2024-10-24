@@ -2,6 +2,10 @@
     margin: 5px;
     padding: 2px;
 }
+
+body {
+    width: 76rem;
+}
 /*Root Element for Color Palete*/
 :root {
     --primary-color: #5bece7;
@@ -183,9 +187,10 @@ img {
 }
 
 /*---------------------*/
+/*CONTACT PAGE SECTION*/
 /*First Section that would be Reach our Team Section*/
 .team {
-    width: 76rem;
+    width: 99.5%;
     height:15rem;
     background-color: lightblue;
     text-align: center;
@@ -205,9 +210,9 @@ img {
 /*---------------------*/
 /*Second Section, that would be the Company information and the Map iframe*/
 .company-information {
+    width: 99.6%;
     position: relative;
     background-color: lightcyan;
-    width: 76rem;
     height: 12rem;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
@@ -215,20 +220,22 @@ img {
 }
 .map {
     position: relative;
-    left: 30rem;
+    left: 29rem;
     bottom: 11rem;
 }
 /*---------------------*/
 /*third section, that would be our Staff*/
 .staff {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: lightcyan;
-    width: 74.5rem;
+
     
 }
 
 .staff-header {
+    width: 100%;
     font-family: "Inknut Antiqua", system-ui;
     font-weight: bolder;
     font-size: xx-large;
@@ -253,10 +260,15 @@ figcaption {
 .form {
     box-sizing: border-box;
     background-color: lightcyan;
-    width: 75rem;
     font-family: "Cormorant Garamond", system-ui;
     font-weight: bold;
     font-size: large;
+    width: 99.8%;
+}
+
+.display-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .form-header {

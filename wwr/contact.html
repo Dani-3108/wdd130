@@ -57,7 +57,7 @@
             <header class="form-header">
                 <h1>Send Us a Message</h1>
             </header>
-            <form>
+            <form class="display-form">
                 <fieldset class="main-field">
                     <legend>User information</legend>
                     <div class="form-item">
@@ -70,16 +70,20 @@
                 </fieldset>
                 <fieldset class="main-field">
                     <legend>Message Type</legend>
-                    <div class="form-item-2 column1">
-                        <input type="radio" name="message-type" id="general-inquiry">
-                        <label for="general-inquiry">General Inquiry</label>
-                        <input type="radio" name="message-type" id="reservation-question">
-                        <label for="reservation-question">Reservation Question</label>
-                        <input type="radio" name="message-type" id="website-suggestion">
-                        <label for="website-suggestion">Website Sugesstion</label>
+                        <div>
+                            <input type="radio" name="message-type" id="general-inquiry">
+                            <label for="general-inquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                             <input type="radio" name="message-type" id="reservation-question">
+                             <label for="reservation-question">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="message-type" id="website-suggestion">
+                            <label for="website-suggestion">Website Sugesstion</label>
+                        </div>
                         <label for="feedback">Message:</label>
                         <textarea id="feedback" name="feedback" rows="4" placeholder="Write your Message here"></textarea>
-                    </div>
                 </fieldset>
                 <fieldset>
                     <input type="checkbox" name="suscribe" id="suscribe" value="please-subscribe-me-to-the-monthly-newsletter">
