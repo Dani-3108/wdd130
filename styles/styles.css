@@ -23,10 +23,11 @@ aside {
     text-align: center;   
 }
 
-aside h2 {
+aside h3 {
     position: absolute;
-    left: 290px;
-    text-decoration: solid;
+    left: 310px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 aside img {
