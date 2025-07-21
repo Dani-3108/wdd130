@@ -1,3 +1,10 @@
+/* Universal Varialbes */
+:root {
+    --background-color: rgba(44, 171, 234, 0.922);
+}
+
+/* HTML BODY STYLE */
+
 main {
     max-width: 840px;
 }
@@ -7,9 +14,10 @@ aside {
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
-    background-color: lightgreen;
+    background-color: var(--background-color);
     color: black; 
-    text-align: center;   
+    text-align: center; 
+    font: var(--font);  
 }
 
 aside img {
@@ -18,7 +26,7 @@ aside img {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
