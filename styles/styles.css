@@ -1,6 +1,13 @@
-/* Universal Varialbes */
+/* Global Varialbes */
 :root {
     --background-color: rgba(44, 171, 234, 0.922);
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* HTML BODY STYLE */
@@ -10,14 +17,16 @@ main {
 }
 
 aside {
+    position: relative;
     width: 48rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
     background-color: var(--background-color);
-    color: black; 
-    text-align: center; 
-    font: var(--font);  
+    text-align: center;   
+}
+
+aside h2 {
+    position: absolute;
+    left: 290px;
+    text-decoration: solid;
 }
 
 aside img {
@@ -41,6 +50,7 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -56,4 +66,12 @@ footer {
     margin-top: 15px;
     border-top: 3px solid black;
     text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 3px solid black;
+    padding: 1rem;
+    color: black;;
 }
