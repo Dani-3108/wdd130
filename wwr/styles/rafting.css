@@ -1,0 +1,87 @@
+/*Global Variables*/
+:root {
+    --primary-color: #5bece7;
+    --secondary-color: #20e9a9;
+    --accent1-color: #B4F500;
+    --aacent2-color: #47a3ffbe;
+    --heading-font: "Inknut Antiqua", serif;
+    --body-font: "Cormorant Garamond", serif;
+}
+
+/*Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Section of Logo & links to the other pages of the project*/
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+header a {
+    text-decoration: none;
+}
+
+/*Div container and its children (hero class and image overlay)*/
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    font-weight: bolder;
+}
+article {
+    position: absolute;
+    top: 110px;
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+}
+article img{
+    width: 20%;
+    height: auto;
+    float: right;
+    border-radius: 10%;
+    border: solid black;
+}
+
+/*Entire Body general Styling*/
+body {
+    font-family: var(--body-font);
+    color: black;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: black;
+}
+
+nav, p, section, article {
+    margin: 5px;
+    padding: 8px;
+}
+
+/*Footer section*/
+.socialmedia a {
+    text-decoration: none;
+}
