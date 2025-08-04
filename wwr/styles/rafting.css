@@ -23,9 +23,27 @@ img {
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
+
+header nav {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
 header a {
     text-decoration: none;
+    color: black;
+    font-family: var(--heading-font);
+    
+}
+
+header img {
+    width: 60%;
+    height: auto;
 }
 
 /*Div container and its children (hero class and image overlay)*/
@@ -85,3 +103,19 @@ nav, p, section, article {
 .socialmedia a {
     text-decoration: none;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    justify-content: center;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: var(--body-font);
+}
+
+footer img {
+    width: 28%;
+    height: auto;
+}
+
+/* Last edited August 4 12:33am */
