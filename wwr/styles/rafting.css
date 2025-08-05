@@ -99,6 +99,22 @@ nav, p, section, article {
     padding: 8px;
 }
 
+
+/* History styling section*/
+
+.history {
+    display: flex;
+}
+
+.history img {
+    width: 50%;
+    height: 50%;
+}
+
+.history p{
+    justify-content: space-around;
+}
+
 /*Footer section*/
 .socialmedia a {
     text-decoration: none;
