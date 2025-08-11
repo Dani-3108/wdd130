@@ -1,0 +1,58 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal values */
+:root {
+    --heading-font: "Inknut Antiqua", serif;
+    --body-font: "Cormorant Garamond", serif;
+}
+
+/* Header styling */
+header {
+    margin: 0 auto;
+    width: 90rem;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: navy;
+}
+
+/* Body styling */
+body {
+    font-family: var(--body-font); 
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    background: rgb(179, 252, 255);
+}
+
+/* form styling */
+
+main {
+    position: relative;
+    left: 230px;
+}
+
+form {
+    width: 800px;
+    margin: 0;
+    border: solid black;
+    border-radius: 10px;
+    background-color: beige;
+    display: grid;
+    text-align: center;
+}
+
+    fieldset {
+        display: grid;
+        grid-gap: 1rem;
+        margin: 10px;
+    }
