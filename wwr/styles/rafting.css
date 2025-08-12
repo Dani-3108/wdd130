@@ -18,6 +18,7 @@ img {
     width: 100%;
     height: auto;
 }
+/* ------------------------------------------------------------------------- */
 
 /*Section of Logo & links to the other pages of the project*/
 header {
@@ -54,8 +55,9 @@ header img {
     text-decoration: none;
     border-radius: 4px;
 }
+/* ------------------------------------------------------------------------------------------------- */
 
-/*Div container and its children (hero class and image overlay)*/
+/*Hero main image and its containers*/
 .hero {
     position: relative;
 }
@@ -64,7 +66,7 @@ header img {
     display: block;
 }
 
-h1 {
+.heroheader {
     position: absolute;
     top: 15px;
     width: 100%;
@@ -86,28 +88,7 @@ article img{
     border-radius: 10%;
     border: solid black;
 }
-
-/*Entire Body general Styling*/
-body {
-    font-family: var(--body-font);
-    color: black;
-}
-
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
-h1, h2 {
-    font-family: var(--heading-font);
-    color: black;
-}
-
-nav, p, section, article {
-    margin: 5px;
-    padding: 8px;
-}
-
+/* ---------------------------------------------------------------------------------------------- */
 
 /* History styling section*/
 
@@ -137,7 +118,7 @@ nav, p, section, article {
     font-weight: bold;
     font-size: medium;
 }
-
+/* ---------------------------------------------------------------------------------------------- */
 
 /* Adventure Section*/
 .generaladventure {
@@ -169,7 +150,29 @@ nav, p, section, article {
     font-size: large;
     font-weight: bold;
 }
+/* ---------------------------------------------------------------------------------------------------------- */
 
+/*General Body Styling*/
+body {
+    font-family: var(--body-font);
+    color: black;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: black;
+}
+
+nav, p, section, article {
+    margin: 5px;
+    padding: 8px;
+}
+/* ---------------------------------------------------------------------------------------------- */
 
 /*Footer section*/
 .socialmedia a {
@@ -191,4 +194,147 @@ footer img {
     height: auto;
 }
 
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* CONTACT US PAGE STYLING */
+
+/* Reach our Team section */
+.contact-h {
+    background-color: #b4f9e3;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: larger;
+    color: black;
+    font-weight: 900;
+}
+
+.contact-h1 {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+/* -------------------------------------------------- */
+
+/* HQ and map section */
+.hqmap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightcyan;
+}
+
+.hqinfo {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: larger;
+    font-weight: 900;
+}
+
+.hqinfo h1, h2 {
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    font-size: x-large;
+}
+/* ---------------------------------------------- */
+
+/* Staff section */
+
+.generalstaff {
+    background-color: lightcyan;
+}
+
+.staffheader {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+
+.staff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.staff img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.staff figcaption {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: large;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Form Section */
+.form {
+    background-color: lightcyan;
+    border: none;
+    font-family: var(--body-font);
+    font-size: larger;
+    font-weight: 700;
+}
+
+.form h1 {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: bolder;
+}
+
+.displayform {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form legend {
+    font-family: var(--heading-font);
+}
+
+.mainfield {
+    border-radius: .5rem;
+    border-color: rgb(0, 193, 252);
+}
+
+.formitem {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(166, 232, 232);
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    justify-content: center;
+    width: 95%;
+}
+
+button :hover {
+    background-color: navy;
+}
+
+.mainfield div {
+    margin-bottom: 10px;
+}
+
+.feedback {
+    display: block;
+    margin-top: 15px;
+    /* adds extra space above the textarea */
+    width: 95%;
+    /* optional: make it align with inputs */
+}
 /* Last edited August 4 12:33am */

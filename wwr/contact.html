@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteWater Rafting Contact Information</title>
+    <meta name="description" content="This Website contains information about how to contact Mountain Extreme WaterRafting company and a form to submit questions in regards the services the company provides">
+    <meta name="author" content="Daniel Osorio">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Inknut+Antiqua:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Section of Logo & links to the other pages of the project-->
+    <header>
+            <img src="images/logo.png" alt="Website logo">
+            <nav>
+                <a href="index.html" class="button">Home Page</a>
+                <a href="about.html" class="button">About Us</a>
+                <a href="trips.html" class="button">Our Trips</a>
+                <a href="contact.html" class="button">Contact Us</a>
+            </nav>
+    </header>
+<!--Section containing Main info from the page, history and quick overview-->
+    <main>
+    <!-- Reach our Team section -->
+      <section class="contact-h">
+        <h1 class="contact-h1">Reach our Team</h1>
+        <p>We love questions and feedback - and we are always happy to help! Here are some ways to contacts us.</p>
+      </section>
+      <!-- HQ SECTION AND MAP EMBEDED -->
+       <section class="hqmap">
+        <div class="hqinfo">
+            <h1>Headquarters</h1>
+            <h2>British Columbia, Canada</h2>
+            <p>11957 L'Heureaux Rd, Tête Jaune Cache</p>
+            <p><a href="mailto">extremewateraftingCA@gmail.com</a></p>
+            <p>+12505660040</p>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4040.3937206366595!2d-119.44162527917041!3d52.976622970610286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1729372865332!5m2!1sen!2smx" width="430" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       </section>
+       <!-- STAFF/TEAM SECTION -->
+       <section class="generalstaff">
+            <h2 class="staffheader">Our Team</h2>
+            <div class="staff">
+                <figure>
+                    <img src="images/dani.jpg" alt="Founder Daniel Osorio">
+                    <figcaption>Founder Daniel Osorio</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/kenny.jpg" alt="Founder Kenny">
+                    <figcaption>Founder Kenny Osorio</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/david.jpg" alt="Director of operations David Osorio">
+                    <figcaption>D.O.P David Osorio</figcaption>
+                </figure>
+            </div>
+       </section>
+        <!-- FORM SECTION -->
+        <section class="form">
+            <h1>Send Us a Message</h1>
+            <form class="displayform">
+                <fieldset class="mainfield">
+                    <legend>User Information</legend>
+                    <div class="formitem">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                        <label for="email">Email Address</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                </fieldset>
+                <fieldset class="mainfield" >
+                    <legend>Message Type</legend>
+                    <div>
+                        <input type="radio" name="message-type" id="general-inquiry">
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="message-type" id="reservation-question">
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="message-type" id="website-suggestion">
+                        <label for="website-suggestion">Webiste Suggestion</label>
+                    </div>
+                    <label for="feedback" class="feedback">Message:</label>
+                    <textarea name="feedback" id="feedback" rows="4" placeholder="Write your Message here"></textarea>
+                </fieldset>
+                <fieldset class="mainfield">
+                    <input type="checkbox" name="suscribe" id="suscribe" value="please-subscribe-me-to-the-monthly-newsletter">
+                    <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                </fieldset>
+                <button type="submit">Submitt</button>
+            </form>
+       </section>
+    </main>
+    <footer>
+        <p>©️2025 🚣‍♀️ Mountain Extreme Water Rafting 🚣‍♀️ Daniel Enrique Osorio Flores</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" alt="Facebook page">
+            </a>
+            <a href="https://www.instagram.com/dani.301?igsh=MWg0ZjQ4dXh3OXhzeg%3D%3D&utm_source=qr">
+                <img src="images/instagram.png" alt="Instagram page">
+            </a>
+            <a href="https://www.tripadvisor.com/">
+                <img src="images/tripadvisor.png" alt="Tripadvisor page">
+            </a>
+        </nav>
+        <nav>
+            <a href="https://app.moqups.com/LA25iQ1kn7p5w5MxfedLYTQDxMJZskHm/view/page/ad12de680">WireFrame link</a>
+        </nav>
+    </footer>
+</body>
+</html>
+<!-- Last edited August 11 9pm PDT  -->
