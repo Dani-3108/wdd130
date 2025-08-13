@@ -344,6 +344,10 @@ button:hover {
 
 /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 /* HOME PAGE */
+
+.mainindex {
+    background-color: lightcyan;
+}
  
 /* Hero two image section */
 
@@ -389,4 +393,81 @@ button:hover {
     padding: 5px;
     box-shadow: 20px 20px 20px black;
 }
-/* Last edited August 11 9pm PDT */
+
+/* Activities section */
+
+.activities img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    border: 10px solid steelblue;
+    padding: 5px;
+    box-shadow: 0 0 50px gray;
+}
+
+.activitieslayout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    justify-items: center;
+}
+
+.activities figcaption {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* Newsletter*/
+
+.newsletter h2 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+}
+
+.newsletter img {
+    position: relative;
+    left: 230px;
+    width: 350px;
+    border: 10px solid lightcyan;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;    
+}
+
+.newsletter p {
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+/* Form of newsletter */
+
+.newsletterform fieldset {
+    border-radius: .5rem;
+    border-color: rgb(13, 93, 189)
+}
+
+.newsletterform div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.newsletter legend {
+    font-family: var(--heading-font);
+    font-size: larger;
+}
+
+.newsletter label {
+    font-family: var(--body-font);
+    font-size: larger;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.newsletter input {
+    margin-bottom: 30px;
+}
