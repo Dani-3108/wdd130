@@ -1,3 +1,6 @@
+/*Section of General values for the page, Logo and link to other pages*/
+
+
 /*Global Variables*/
 :root {
     --primary-color: #5bece7;
@@ -7,7 +10,6 @@
     --heading-font: "Inknut Antiqua", serif;
     --body-font: "Cormorant Garamond", serif;
 }
-
 /*Universal Selector*/
 * {
     margin: 0;
@@ -18,9 +20,7 @@ img {
     width: 100%;
     height: auto;
 }
-/* ------------------------------------------------------------------------- */
 
-/*Section of Logo & links to the other pages of the project*/
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
@@ -55,8 +55,8 @@ header img {
     text-decoration: none;
     border-radius: 4px;
 }
-/* ------------------------------------------------------------------------------------------------- */
-
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* ABOUT US PAGE */
 /*Hero main image and its containers*/
 .hero {
     position: relative;
@@ -75,7 +75,7 @@ header img {
     opacity: 0.8;
     font-weight: bolder;
 }
-article {
+.heronearticle {
     position: absolute;
     top: 110px;
     background-color: var(--secondary-color);
@@ -294,6 +294,11 @@ footer img {
     grid-template-columns: 1fr 1fr;
 }
 
+.displayform textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .form legend {
     font-family: var(--heading-font);
 }
@@ -311,8 +316,8 @@ footer img {
 
 button {
     margin: 10px;
-    background-color: rgb(166, 232, 232);
-    color: black;
+    background-color: navy;
+    color: white;
     border-color: black;
     border-radius: 5px;
     font-size: 20px;
@@ -322,8 +327,9 @@ button {
     width: 95%;
 }
 
-button :hover {
-    background-color: navy;
+button:hover {
+    background-color: green;
+    color: white;
 }
 
 .mainfield div {
@@ -333,8 +339,54 @@ button :hover {
 .feedback {
     display: block;
     margin-top: 15px;
-    /* adds extra space above the textarea */
     width: 95%;
-    /* optional: make it align with inputs */
 }
-/* Last edited August 4 12:33am */
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* HOME PAGE */
+ 
+/* Hero two image section */
+
+.herotwo {
+    position: relative;
+}
+
+.herotwo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.herotwo h1 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.herolink {
+    color: antiquewhite;
+    font-family: var(--body-font);
+    font-size: x-large;
+    font-weight: 900;
+    position: absolute;
+    top: 50px;
+    right: 140px;
+    text-align: center;
+}
+
+.herolink a {
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    padding: 5px;
+    box-shadow: 20px 20px 20px black;
+}
+/* Last edited August 11 9pm PDT */
