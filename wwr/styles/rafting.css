@@ -471,3 +471,137 @@ button:hover {
 .newsletter input {
     margin-bottom: 30px;
 }
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* Trips Page */
+.tripsbackground {
+    background-color: #add8e6;
+}
+/* First section */
+
+.maintripphoto {
+    position: relative;
+}
+
+.maintripphoto img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.maintripphoto h1 {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    width: 25%;
+    color: black;
+    background-color: var(--aacent2-color);
+    text-align: center;
+    font-family: var(--heading-font);
+    font-style: italic;
+    font-size: xx-large;
+    border-radius: 1rem;
+}
+
+/* Table design */
+.tabletrips table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabletrips caption {
+    font-family: var(--heading-font);
+    caption-side: top;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.tabletrips th, td {
+    border: 1.5px solid black;
+}
+
+.tabletrips th {
+    font-family: var(--heading-font);
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.tabletrips td {
+    font-family: var(--body-font);
+    font-size: larger;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.tabletrips thead {
+    background-color: #a1cbf5;
+}
+
+tbody >tr:nth-of-type(even) {
+    background-color: lightcyan;
+}
+
+/* Trip details section */
+.tripdetails {
+    background-color: lightskyblue;
+}
+
+.tripfigure {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.tripdetails img {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 30px black;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 5px solid lightcyan;
+}
+
+.tripdetails figcaption {
+    margin-left: 10px;
+    font-family: var(--body-font);
+    font-size: larger;
+}
+
+/* Trips include section */
+.tripcontent h2 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+.tripcontent {
+    font-family: var(--body-font);
+    font-size: x-large;
+}
+
+.tripcontent ul {
+    margin-left: 50px;
+}
+
+/* Contact button section */
+.contactbutton {
+    text-decoration: none;
+    color: black;
+    font-family: var(--body-font);
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid black;
+}
+
+/* Last edited August 15 5:30pm PDT */
